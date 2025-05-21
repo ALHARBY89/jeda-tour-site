@@ -1,95 +1,94 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
 <head>
   <meta charset="UTF-8">
-  <title>جيدا - مستشارك السياحي</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="جيدا - مستشارك السياحي الأول">
+  <title>جيدا | مستشارك السياحي</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    * {
-      box-sizing: border-box;
-      font-family: 'Tahoma', sans-serif;
-    }
     body {
       margin: 0;
-      background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(to bottom right, #ffffff, #f0f8ff);
       color: #333;
     }
     header {
-      background-color: #004e92;
+      background-color: #004aad;
       color: white;
-      padding: 40px 20px;
+      padding: 2rem 1rem;
       text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
     }
     header h1 {
       margin: 0;
-      font-size: 36px;
+      font-size: 2.5rem;
     }
     header p {
-      font-size: 18px;
-      margin-top: 10px;
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
     }
-    section {
-      padding: 40px 20px;
-      text-align: center;
-    }
-    section h2 {
-      font-size: 28px;
-      color: #004e92;
-    }
-    section p {
-      font-size: 18px;
-      max-width: 700px;
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
       margin: auto;
     }
+    .section h2 {
+      color: #004aad;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
     footer {
-      background-color: #002f4b;
+      background-color: #004aad;
       color: white;
       text-align: center;
-      padding: 20px;
-      font-size: 14px;
+      padding: 1rem;
+      margin-top: 2rem;
     }
-    .social {
-      margin-top: 20px;
-    }
-    .social a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: white;
-      background-color: #25D366;
-      padding: 10px 20px;
-      border-radius: 5px;
-      display: inline-block;
-    }
-    .social a.instagram {
-      background-color: #C13584;
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
     }
   </style>
 </head>
 <body>
-
   <header>
     <h1>مرحبًا بكم في جيدا</h1>
     <p>نحن مستشارك السياحي في كل رحلة</p>
   </header>
 
-  <section>
-    <h2>خدماتنا</h2>
-    <p>
-      جيدا تقدم لك أفضل تجارب السفر والرحلات السياحية المصممة خصيصًا لك. من تخطيط الرحلات إلى الحجز والمرافقة، نحن نضمن لك تجربة لا تُنسى.
-    </p>
-  </section>
+  <section class="section">
+    <div class="card">
+      <h2>من نحن؟</h2>
+      <p>شركة *جيدا* تقدم لك خبرة استثنائية في تنظيم الرحلات السياحية داخل وخارج المملكة، بخيارات تناسب كل الأذواق.</p>
+    </div>
 
-  <section>
-    <h2>تواصل معنا</h2>
-    <div class="social">
-      <a href="https://wa.me/9665XXXXXXXX" target="_blank">تواصل عبر واتساب</a>
-      <a href="https://instagram.com/jeda_tour" class="instagram" target="_blank">تابعنا على إنستقرام</a>
+    <div class="card">
+      <h2>خدماتنا</h2>
+      <ul>
+        <li>تنسيق برامج سياحية مخصصة</li>
+        <li>حجز فنادق وتذاكر طيران</li>
+        <li>رحلات شهر العسل والعائلات</li>
+        <li>رحلات المغامرات والطبيعة</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>تواصل معنا</h2>
+      <p>📞 0500000000<br>📧 info@jedatour.com<br>📍 المملكة العربية السعودية</p>
     </div>
   </section>
 
   <footer>
     &copy; 2025 جيدا - جميع الحقوق محفوظة
   </footer>
-
 </body>
 </html>
